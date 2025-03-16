@@ -41,11 +41,11 @@ def snowman(snowman_word):
         
         if is_word_guessed(snowman_word, correct_letter_guess_statuses):
             print_snowman_graphic(wrong_guesses_count)
-            print("Congratulations, you win!")  #If player wins
+            print("Congratulations, you win!") #If player winds
             return
-    
+
     print_snowman_graphic(wrong_guesses_count)
-    print(f"Sorry, you lose! The word was {snowman_word}")  #If player loses
+    print(f"Sorry, you lose! The word was {snowman_word}") #If player loses
 
 
 def print_snowman_graphic(wrong_guesses_count):
